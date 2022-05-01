@@ -17,9 +17,11 @@
         android:backgroundTint="@android:color/black"
         android:text="@string/_7"
         android:textSize="25sp"
+        android:onClick="ButtonClick"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toStartOf="@+id/button8"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
     <Button
         android:id="@+id/button9"
@@ -30,6 +32,7 @@
         android:backgroundTint="@android:color/black"
         android:text="@string/_9"
         android:textSize="25sp"
+        android:onClick="ButtonClick"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toStartOf="@+id/buttonMultiply" />
 
@@ -42,6 +45,7 @@
         android:backgroundTint="@android:color/black"
         android:text="@string/_5"
         android:textSize="25sp"
+        android:onClick="ButtonClick"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toStartOf="@+id/button6" />
 
@@ -54,6 +58,7 @@
         android:backgroundTint="@android:color/black"
         android:text="@string/_2"
         android:textSize="25sp"
+        android:onClick="ButtonClick"
         app:layout_constraintBottom_toTopOf="@+id/buttonDecimal"
         app:layout_constraintEnd_toStartOf="@+id/button3" />
 
@@ -66,6 +71,7 @@
         android:backgroundTint="@android:color/black"
         android:text="@string/_6"
         android:textSize="25sp"
+        android:onClick="ButtonClick"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toStartOf="@+id/buttonMinus" />
 
@@ -79,6 +85,7 @@
         android:backgroundTint="@android:color/black"
         android:text="@string/_4"
         android:textSize="25sp"
+        android:onClick="ButtonClick"
         app:layout_constraintBottom_toTopOf="@+id/button1"
         app:layout_constraintEnd_toStartOf="@+id/button5"
         app:layout_constraintStart_toStartOf="parent" />
@@ -93,6 +100,7 @@
         android:text="@string/divide"
         android:textColor="@color/purple_500"
         android:textSize="25sp"
+        android:onClick="ButtonOperator_Click"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/buttonMultiply"
         app:layout_constraintEnd_toEndOf="parent"
@@ -107,6 +115,7 @@
         android:backgroundTint="@android:color/black"
         android:text="@string/_3"
         android:textSize="25sp"
+        android:onClick="ButtonClick"
         app:layout_constraintBottom_toTopOf="@+id/buttonEqual"
         app:layout_constraintEnd_toStartOf="@+id/buttonPlus" />
 
@@ -119,6 +128,7 @@
         android:backgroundTint="@android:color/black"
         android:text="@string/_8"
         android:textSize="25sp"
+        android:onClick="ButtonClick"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toStartOf="@+id/button9" />
 
@@ -132,6 +142,7 @@
         android:text="@string/minus"
         android:textColor="@color/purple_500"
         android:textSize="30sp"
+        android:onClick="ButtonOperator_Click"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/buttonPlus"
         app:layout_constraintEnd_toEndOf="parent"
@@ -147,6 +158,7 @@
         android:backgroundTint="@color/black"
         android:text="@string/_1"
         android:textSize="25sp"
+        android:onClick="ButtonClick"
         app:layout_constraintBottom_toTopOf="@+id/buttonDecimal"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent" />
@@ -161,6 +173,7 @@
         android:text="@string/multiply"
         android:textColor="@color/purple_500"
         android:textSize="25sp"
+        android:onClick="ButtonOperator_Click"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/buttonMinus"
         app:layout_constraintEnd_toEndOf="parent"
@@ -178,6 +191,7 @@
         android:textColor="@android:color/holo_red_dark"
         android:textSize="25sp"
         android:textStyle="bold"
+        android:onClick="button_AC_Click"
         app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintEnd_toStartOf="@+id/buttonClearEntry"
         app:layout_constraintStart_toStartOf="parent" />
@@ -192,6 +206,7 @@
         android:text="@string/modulus"
         android:textColor="@color/purple_500"
         android:textSize="25sp"
+        android:onClick="ButtonOperator_Click"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button9"
         app:layout_constraintEnd_toStartOf="@+id/buttonDivide"
@@ -209,6 +224,7 @@
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="25sp"
         android:textStyle="bold"
+        android:onClick="button_CE_Click"
         app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintEnd_toStartOf="@+id/buttonModulus" />
 
@@ -222,6 +238,7 @@
         android:backgroundTint="@android:color/black"
         android:text="@string/decimal"
         android:textSize="25sp"
+        android:onClick="ButtonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button0"
         app:layout_constraintStart_toStartOf="parent" />
@@ -250,6 +267,7 @@
         android:backgroundTint="@android:color/black"
         android:text="@string/_0"
         android:textSize="25sp"
+        android:onClick="ButtonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/buttonEqual" />
 
@@ -263,6 +281,7 @@
         android:text="@string/plus"
         android:textColor="@color/purple_500"
         android:textSize="25sp"
+        android:onClick="ButtonOperator_Click"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/buttonEqual"
         app:layout_constraintEnd_toEndOf="parent"
@@ -282,5 +301,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.91" />
+
+    <TextView
+        android:id="@+id/operationTextView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/operation"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
