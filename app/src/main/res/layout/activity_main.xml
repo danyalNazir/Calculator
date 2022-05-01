@@ -238,7 +238,7 @@
         android:backgroundTint="@android:color/black"
         android:text="@string/decimal"
         android:textSize="25sp"
-        android:onClick="ButtonClick"
+        android:onClick="ButtonDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button0"
         app:layout_constraintStart_toStartOf="parent" />
@@ -254,6 +254,7 @@
         android:text="@string/equal"
         android:textColor="@color/black"
         android:textSize="30sp"
+        android:onClick="ButtonEqual_Click"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
@@ -306,6 +307,7 @@
         android:id="@+id/operationTextView"
         android:layout_width="0dp"
         android:layout_height="50dp"
+        android:layout_marginStart="8dp"
         android:layout_marginBottom="5dp"
         android:text="@string/operation"
         android:textColor="@android:color/darker_gray"
