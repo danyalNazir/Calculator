@@ -12,7 +12,7 @@ import org.w3c.dom.Text;
 public class MainActivity<string> extends AppCompatActivity {
     Button button;
     TextView textView,operation_textView;
-    Double result;
+    Double result=0.0;
     String operation  = new String("");
     boolean isOperation= false;
     int flag = 0;
@@ -96,7 +96,7 @@ public class MainActivity<string> extends AppCompatActivity {
     }
     public void ButtonEqual_Click(View v)
     {
-        if(result!=0.0)
+        if(result!=0.0 && textView.getText().toString()!="0")
         {
             Double answer;
             switch (operation) {
@@ -136,6 +136,6 @@ public class MainActivity<string> extends AppCompatActivity {
             flag = 1;
         }
         else
-        return;
+       return;
     }
 }
